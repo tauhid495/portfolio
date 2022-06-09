@@ -11,9 +11,12 @@ function App() {
     <div className="">
 
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/contact' element={<Contact />}></Route>
-        <Route path='/aboutme' element={<AboutMe />}></Route>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />}>
+          <Route path='contact' element={<Contact />}></Route>
+          <Route path='aboutme' element={<AboutMe />}></Route>
+
+        </Route>
       </Routes>
 
       <Type />

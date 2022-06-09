@@ -1,6 +1,9 @@
 import React from 'react';
+
 import { BiDotsVerticalRounded } from 'react-icons/bi';
+import { RiHomeGearLine } from 'react-icons/ri';
 import Avatar from '../Avatar';
+import CustomLink from '../CustomLink';
 
 
 const Home = () => {
@@ -21,7 +24,11 @@ const Home = () => {
                         {/* <!-- Sidebar content here --> */}
                         <li className='block mx-auto'><Avatar /></li>
                         <p className='hover:text-primary text-center text-xl font-semibold '>Shahidul Islam</p>
-                        <li><a>Sidebar Item 2</a></li>
+                        <p className='text-center'>Jr Web Developer</p>
+                        <p className='text-center'>Sales Team Leader</p>
+                        <li> <CustomLink to='/'> <div className='flex'><RiHomeGearLine className='w-6 h-6' />Home </div></CustomLink> </li>
+                        <li> <CustomLink to='/contact'> <div className='flex'><RiHomeGearLine className='w-6 h-6' />Contact </div></CustomLink> </li>
+                        <li> <CustomLink to='/aboutme'> <div className='flex'><RiHomeGearLine className='w-6 h-6' />About Me </div></CustomLink> </li>
 
                     </ul>
 
