@@ -1,12 +1,4 @@
-import React from 'react';
-import {
-    Routes,
-    Route,
-    Outlet,
-    Link,
-    useMatch,
-    useResolvedPath,
-} from "react-router-dom";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
@@ -15,13 +7,13 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <Link
-                style={{ textDecoration: match ? "underline" : "none" }}
+                style={{ color: match ? "#FFC107" : "" }}
                 to={to}
                 {...props}
             >
                 {children}
             </Link>
-            {match && " (active)"}
+            {/* {match && " (active)"} */}
         </div>
     );
 }

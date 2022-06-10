@@ -5,9 +5,9 @@ import Typed from "react-typed"
 
 const Type = () => {
     return (
-        <div className='flex text-2xl'>
-            <p className='text-2xl'>I am a </p>
-            <Typed
+        <div className='flex text-xl md:text-2xl'>
+            <p className='text-xl md:text-2xl'>I am a </p>
+            <Typed className='text-primary font-semibold'
                 strings={[
                     " Web Developer",
                     " Team Leader ",
