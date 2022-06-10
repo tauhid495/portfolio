@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdLocationOn } from 'react-icons/md';
+import { MdMarkEmailUnread } from 'react-icons/md';
+import { MdWifiCalling3 } from 'react-icons/md';
 
 
 const ContactMe = () => {
@@ -26,13 +28,22 @@ const ContactMe = () => {
                 <p className='text-4xl md:text-6xl font-semibold text-gray-700'>Contact With Me</p>
             </div>
 
-            <div className='mt-10 md:flex w-full items-center justify-center pr-7'>
-                <div className='pl-3 mr-3 md:w-1/2 bg-secondary h-[390px] rounded-xl'>
-                    <p><MdLocationOn className='w-14 h-14 text-primary'/> </p>
+            <div className='mt-16 md:flex w-full items-center justify-center pr-7'>
+                <div className='pl-3 mx-7 md:w-1/2 bg-secondary h-[390px] rounded-xl'>
+                    <p><MdLocationOn className='w-14 h-14 text-primary block mx-auto mt-5' /> </p>
+                    <p className='text-center text-xl'>Cornel Hat, Chattagram, Bangladesh. </p>
+
+                    <p><MdMarkEmailUnread className='w-12 h-12 text-primary block mx-auto mt-7' /> </p>
+                    <p className='text-center text-xl'>shahidul.islam.1691.bd@gmail.com
+                        <br /> tauhid495@gmail.com </p>
+
+                    <p><MdWifiCalling3 className='w-12 h-12 text-primary block mx-auto mt-7' /> </p>
+                    <p className='text-center text-xl'>(+880) 1755338813 </p>
                 </div>
 
-                <div className='md:w-1/2 ml-3'>
-                    {/* contact form */}
+                {/* contact form */}
+                <div className='md:w-1/2 mx-7 mt-7 md:mt-0'>
+                    <p className='text-center text-xl text-primary md:hidden'>Feel Free To Write</p>
                     <div class="block p-6 rounded-lg shadow-lg bg-secondary w-full">
                         <form ref={form} onSubmit={sendEmail}>
                             {/* name */}

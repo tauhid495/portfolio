@@ -6,6 +6,8 @@ import { RiHomeGearLine } from 'react-icons/ri';
 import Avatar from '../Avatar';
 import CustomLink from '../CustomLink';
 import Banner from './Banner';
+import Skills from './Skills';
+import Projects from './Projects';
 
 
 const Home = () => {
@@ -22,11 +24,13 @@ const Home = () => {
                         <p className='md:hidden text-xl text-primary'>Portfolio of Shahidul Islam</p>
                     </div>
                     <Banner />
+                    <Skills />
+                    <Projects />
 
                 </div>
                 <div class="drawer-side">
                     <label for="my-drawer-2" class="drawer-overlay"></label>
-                    <ul class="menu p-4 overflow-y-auto w-56 bg-base-100 text-base-content">
+                    <ul class="menu p-4 overflow-y-auto w-56 bg-secondary mr-5 text-base-content h-screen">
                         {/* <!-- Sidebar content here --> */}
                         <div className='bg-secondary pb-3'>
                             <li className='block mx-auto'><Avatar /></li>
@@ -42,7 +46,6 @@ const Home = () => {
 
                             <li> <CustomLink to='/aboutme'> <div className='flex'><FaRegUser className='w-6 h-6' /> About Me </div></CustomLink> </li>
                         </div>
-
                     </ul>
 
                 </div>

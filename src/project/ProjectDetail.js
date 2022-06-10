@@ -6,10 +6,7 @@ import { RiHomeGearLine } from 'react-icons/ri';
 import Avatar from '../Avatar';
 import CustomLink from '../CustomLink';
 
-import Detail from './Detail';
-
-
-const AboutMe = () => {
+const ProjectDetail = () => {
     return (
         <div>
             <div class="drawer drawer-mobile">
@@ -22,8 +19,9 @@ const AboutMe = () => {
                         </label>
                         <p className='md:hidden text-xl text-primary'>Portfolio of Shahidul Islam</p>
                     </div>
-                    <Detail />
+                    <p>tauhid Taiyaar</p>
                 </div>
+
                 <div class="drawer-side">
                     <label for="my-drawer-2" class="drawer-overlay"></label>
                     <ul class="menu p-4 overflow-y-auto w-56 bg-secondary mr-5 text-base-content h-screen">
@@ -50,4 +48,4 @@ const AboutMe = () => {
     );
 };
 
-export default AboutMe;
+export default ProjectDetail;

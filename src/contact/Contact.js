@@ -22,6 +22,7 @@ const Contact = () => {
                     </div>
                     <ContactMe />
                 </div>
+                
                 <div class="drawer-side">
                     <label for="my-drawer-2" class="drawer-overlay"></label>
                     <ul class="menu p-4 overflow-y-auto w-56 bg-secondary mr-5 text-base-content h-screen">

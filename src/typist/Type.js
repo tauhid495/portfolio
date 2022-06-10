@@ -10,7 +10,7 @@ const Type = () => {
             <Typed className='text-primary font-semibold'
                 strings={[
                     " Web Developer",
-                    " Team Leader ",
+                    " Sales Team Leader ",
                     " Pathological Lab Manager",
                 ]}
                 typeSpeed={150}
