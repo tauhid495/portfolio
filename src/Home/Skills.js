@@ -16,40 +16,40 @@ const Skills = () => {
 
                 {/* content */}
                 <div className='my-10 pb-7 pl-3 grid gap-x-auto grid-cols-5 md:grid-cols-12'>
-                    <FaHtml5 className='w-12 h-12 hover:text-primary'
+                    <FaHtml5 className='w-12 h-12 text-[#FF6633]'
                         data-bs-toggle="tooltip" title="HTML" />
 
-                    <DiCss3 className='w-12 h-12 hover:text-primary'
+                    <DiCss3 className='w-12 h-12 text-[#0066CC]'
                         data-bs-toggle="tooltip" title="CSS" />
 
-                    <FaBootstrap className='w-12 h-12 hover:text-primary'
+                    <FaBootstrap className='w-12 h-12 text-[#9966CC]'
                         data-bs-toggle="tooltip" title="Bootstrap" />
 
-                    <SiTailwindcss className='w-12 h-12 hover:text-primary'
+                    <SiTailwindcss className='w-12 h-12 text-[#00CCCC]'
                         data-bs-toggle="tooltip" title="Tailwind" />
 
-                    <TbBrandJavascript className='w-12 h-12 hover:text-primary'
+                    <TbBrandJavascript className='w-12 h-12 text-[#006699]'
                         data-bs-toggle="tooltip" title="Java Script" />
 
-                    <FaReact className='w-12 h-12 hover:text-primary'
+                    <FaReact className='w-12 h-12 text-[#59DCFA]'
                         data-bs-toggle="tooltip" title="React" />
 
-                    <SiMongodb className='w-12 h-12 hover:text-primary'
+                    <SiMongodb className='w-12 h-12 text-[#339933]'
                         data-bs-toggle="tooltip" title="MongoDB" />
 
-                    <SiHeroku className='w-12 h-12 hover:text-primary'
+                    <SiHeroku className='w-12 h-12 text-[#6666CC]'
                         data-bs-toggle="tooltip" title="Heroku" />
 
-                    <SiFirebase className='w-12 h-12 hover:text-primary'
+                    <SiFirebase className='w-12 h-12 text-[#FF9900]'
                         data-bs-toggle="tooltip" title="Firebase" />
 
-                    <FaStripe className='w-12 h-12 hover:text-primary'
-                        data-bs-toggle="tooltip" title="Stripe" />
-
-                    <FaNodeJs className='w-12 h-12 hover:text-primary'
+                    <FaNodeJs className='w-12 h-12 text-[#669966]'
                         data-bs-toggle="tooltip" title="NodeJS" />
 
-                    <SiNodemon className='w-12 h-12 hover:text-primary'
+                    <FaStripe className='w-12 h-12 text-[#6666CC]'
+                        data-bs-toggle="tooltip" title="Stripe" />
+
+                    <SiNodemon className='w-12 h-12 text-[#66CC66]'
                         data-bs-toggle="tooltip" title="Nodemon" />
                 </div>
             </div>
