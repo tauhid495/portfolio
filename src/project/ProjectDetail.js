@@ -5,6 +5,7 @@ import { FaRegUser } from 'react-icons/fa';
 import { RiHomeGearLine } from 'react-icons/ri';
 import Avatar from '../Avatar';
 import CustomLink from '../CustomLink';
+import MOtools from './MOtools';
 
 const ProjectDetail = () => {
     return (
@@ -20,6 +21,7 @@ const ProjectDetail = () => {
                         <p className='md:hidden text-xl text-primary'>Portfolio of Shahidul Islam</p>
                     </div>
                     <p>tauhid Taiyaar</p>
+                    <MOtools />
                 </div>
 
                 <div class="drawer-side">
