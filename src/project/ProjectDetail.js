@@ -6,6 +6,8 @@ import { RiHomeGearLine } from 'react-icons/ri';
 import Avatar from '../Avatar';
 import CustomLink from '../CustomLink';
 import MOtools from './MOtools';
+import DecoFurn from './DecoFurn';
+import Review from './Review';
 
 const ProjectDetail = () => {
     return (
@@ -20,8 +22,10 @@ const ProjectDetail = () => {
                         </label>
                         <p className='md:hidden text-xl text-primary'>Portfolio of Shahidul Islam</p>
                     </div>
-                    <p>tauhid Taiyaar</p>
+
                     <MOtools />
+                    <DecoFurn />
+                    <Review />
                 </div>
 
                 <div class="drawer-side">
