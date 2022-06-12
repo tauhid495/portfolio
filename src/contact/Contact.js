@@ -6,6 +6,7 @@ import { RiHomeGearLine } from 'react-icons/ri';
 import Avatar from '../Avatar';
 import CustomLink from '../CustomLink';
 import ContactMe from './ContactMe';
+import SocialLink from '../Social/SocialLink';
 
 const Contact = () => {
     return (
@@ -22,7 +23,7 @@ const Contact = () => {
                     </div>
                     <ContactMe />
                 </div>
-                
+
                 <div class="drawer-side">
                     <label for="my-drawer-2" class="drawer-overlay"></label>
                     <ul class="menu p-4 overflow-y-auto w-56 bg-secondary mr-5 text-base-content h-screen">
@@ -35,11 +36,23 @@ const Contact = () => {
                         </div>
 
                         <div className='bg-secondary mt-5 py-3'>
+                            <div className='w-full h-[1px] bg-gray-600'></div>
                             <li> <CustomLink to='/'> <div className='flex'><RiHomeGearLine className='w-6 h-6' /> Home </div></CustomLink> </li>
 
+                            <div className='w-full h-[1px] bg-gray-600'></div>
                             <li> <CustomLink to='/contact'> <div className='flex'><AiOutlineMail className='w-6 h-6' />  Contact </div></CustomLink> </li>
 
+                            <div className='w-full h-[1px] bg-gray-600'></div>
                             <li> <CustomLink to='/aboutme'> <div className='flex'><FaRegUser className='w-6 h-6' /> About Me </div></CustomLink> </li>
+
+                            <div className='w-full h-[1px] bg-gray-600'></div>
+
+                        </div>
+
+
+                        <div className='absolute bottom-3 '>
+                            <SocialLink />
+
                         </div>
                     </ul>
 

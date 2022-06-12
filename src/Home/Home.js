@@ -8,6 +8,7 @@ import CustomLink from '../CustomLink';
 import Banner from './Banner';
 import Skills from './Skills';
 import Projects from './Projects';
+import SocialLink from '../Social/SocialLink';
 
 
 const Home = () => {
@@ -40,11 +41,23 @@ const Home = () => {
                         </div>
 
                         <div className='bg-secondary mt-5 py-3'>
+                            <div className='w-full h-[1px] bg-gray-600'></div>
                             <li> <CustomLink to='/'> <div className='flex'><RiHomeGearLine className='w-6 h-6' /> Home </div></CustomLink> </li>
 
+                            <div className='w-full h-[1px] bg-gray-600'></div>
                             <li> <CustomLink to='/contact'> <div className='flex'><AiOutlineMail className='w-6 h-6' />  Contact </div></CustomLink> </li>
 
+                            <div className='w-full h-[1px] bg-gray-600'></div>
                             <li> <CustomLink to='/aboutme'> <div className='flex'><FaRegUser className='w-6 h-6' /> About Me </div></CustomLink> </li>
+
+                            <div className='w-full h-[1px] bg-gray-600'></div>
+
+                        </div>
+
+
+                        <div className='absolute bottom-3 '>
+                            <SocialLink />
+
                         </div>
                     </ul>
 
